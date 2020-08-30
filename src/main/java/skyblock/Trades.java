@@ -31,20 +31,7 @@ public class Trades {
 
     public static Int2ObjectMap<TradeOffers.Factory[]> getSkyblockWanderingTraderOffers() {
         return new Int2ObjectOpenHashMap<>(ImmutableMap.of(2, new TradeOffers.Factory[] {
-            sell(Items.SOUL_SAND, 1, 11),
             sell(Items.LAVA_BUCKET, 16, 9),
-            sell(Items.CHORUS_FLOWER, 5, 6),
-            sell(Items.JUKEBOX, 64, 6),
-            sell(Items.HEART_OF_THE_SEA, 64, 6),
-            sell(Items.NETHER_WART, 1, 12),
-            sell(Items.COCOA_BEANS, 1, 14),
-            sell(Items.SWEET_BERRIES, 1, 16),
-            sell(Items.SUNFLOWER, 5, 10),
-            sell(Items.LILAC, 5, 10),
-            sell(Items.ROSE_BUSH, 5, 10),
-            sell(Items.PEONY, 5, 10),
-            sell(Items.CRIMSON_NYLIUM, 5, 8),
-            sell(Items.WARPED_NYLIUM, 5, 8)
         }));
     }
 }
